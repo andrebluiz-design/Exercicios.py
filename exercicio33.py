@@ -1,0 +1,11 @@
+numero = int(input("Entrada: "))
+
+dias = {
+    1: "SEGUNDA-FEIRA", 2: "TERÇA-FEIRA", 3: "QUARTA-FEIRA",
+    4: "QUINTA-FEIRA", 5: "SEXTA-FEIRA", 6: "SÁBADO", 7: "DOMINGO"
+}
+
+if numero in dias:
+    print(dias[numero])
+else:
+    print("OPÇÃO INVÁLIDA")
